@@ -17,9 +17,9 @@ HTML Form Input Filters
 * Now we can set these html elements to accept only the numbers and prices:
 ```
 <script>
-   setOnlyNumberInput("numberInput"); // => Sets input field only for numeric characters
+   setOnlyNumberInput("numberInput");      // => Sets input field only for numeric characters
    setOnlyAlphaInput("alphabeticalInput"); // => Sets input field only for alphabetical characters
-   setOnlyAlphaNumInput("alphaNumInput"); // => Sets input field only for alpha numeric characters
+   setOnlyAlphaNumInput("alphaNumInput");  // => Sets input field only for alpha numeric characters
 </script>
 ```
 

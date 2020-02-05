@@ -18,7 +18,7 @@ HTML Form Input Filters
 ```
 <script>
    setOnlyNumberInput("numberInput"); // => Sets input field only for numeric characters
-   setOnlyAlphaInput();("alphabeticalInput"); // => Sets input field only for alphabetical characters
+   setOnlyAlphaInput("alphabeticalInput"); // => Sets input field only for alphabetical characters
    setOnlyAlphaNumInput("alphaNumInput"); // => Sets input field only for alpha numeric characters
 </script>
 ```

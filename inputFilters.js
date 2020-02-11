@@ -28,6 +28,8 @@
  * e.which == 59  // -> Ş
  * e.which == 221  // -> Ü
  * e.which == 191  // -> Ö
+ * e.which == 186  // -> ş for chrome browser
+ * e.which == 222  // -> i for chrome browser
  * 
  * 
  * Default Requireds:
@@ -119,7 +121,9 @@ function onlyAlphaInput(e) {
         e.which == 220 ||
         e.which == 219 ||
         e.which == 221 ||
-        e.which == 191
+        e.which == 191 || 
+        e.which == 186 ||
+        e.which == 222  
     );
 
 }
@@ -148,7 +152,9 @@ function onlyAlphaNumInput(e) {
         e.which == 220 ||
         e.which == 219 ||
         e.which == 221 ||
-        e.which == 191
+        e.which == 191 || 
+        e.which == 186 ||
+        e.which == 222  
     );
 
 }
